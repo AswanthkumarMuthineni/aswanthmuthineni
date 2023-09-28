@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.enabled_false">
+      <class name="testng.soft_assert">
         <methods>
-          <include name="login"/>
+          <include name="tc1"/>
         </methods>
-      </class> <!-- testng.enabled_false -->
+      </class> <!-- testng.soft_assert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
